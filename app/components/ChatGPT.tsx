@@ -1,6 +1,7 @@
 'use client';
 
 import {FormEvent, useState} from "react";
+import Live2DModel from "@/app/components/Live2DModel";
 
 type Message = {
     role: string;
@@ -60,6 +61,7 @@ export default function ChatGPT() {
                         value={response.content}></textarea>
                 </div>
             )}
+            <Live2DModel />
         </div>
     );
 }

@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+public/KITU_RE23
+public/live2dcubismcore.d.ts
+public/live2dcubismcore.min.js
