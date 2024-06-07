@@ -27,7 +27,7 @@
 
 ## npm run
 
-### import 文の並び替え
+### import 文の並び替えおよび未使用の import 文を削除
 
 - npm run lint:fix
 
