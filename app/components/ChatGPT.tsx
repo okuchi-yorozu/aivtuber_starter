@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+
 import Live2DModel from "@/app/components/Live2DModel";
 
 type Message = {

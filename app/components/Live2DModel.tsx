@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
 import * as PIXI from "pixi.js";
+import React, { useEffect, useRef } from "react";
 
 const loadScript = (src: string): Promise<void> => {
   return new Promise((resolve, reject) => {
@@ -25,9 +25,7 @@ const Live2DModelComponent: React.FC = () => {
         // 名前空間が存在するかを確認
         if (window.Live2DCubismCore) {
           // モジュールを動的にインポート
-          const { Live2DModel, Live2DFactory } = await import(
-            "pixi-live2d-display/cubism4"
-          );
+          const { Live2DModel } = await import("pixi-live2d-display/cubism4");
 
           const app = new PIXI.Application({
             view: canvasRef.current,
