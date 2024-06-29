@@ -2,3 +2,5 @@
 .next
 node_modules
 public
+
+app/types/next-auth.d.ts
